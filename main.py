@@ -11,7 +11,7 @@ st.set_page_config(page_title="Satış Dashboard", layout="wide")
 def load_data():
     np.random.seed(42)
     tarixler = pd.date_range("2025-01-01", periods=90)
-    filiallar = ["Bakı", "Gəncə", "Sumqayıt"]
+    filiallar = ["Bakı", "Gəncə", "Sumqayıt","Sheki"]
     mehsullar = ["Noutbuk", "Telefon", "Qulaqlıq"]
     
     rows = []
